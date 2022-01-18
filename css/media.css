@@ -1,0 +1,27 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  .title-1,
+  .title-2 {
+    text-align: center;
+  }
+  .title-2 {
+    font-size: 30px;
+  }
+  form {
+    flex-direction: column;
+    height: auto;
+  }
+  textarea {
+    max-width: none;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  .input-wrapper {
+    max-width: none;
+    margin-bottom: 15px;
+  }
+}
