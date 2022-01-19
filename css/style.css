@@ -76,13 +76,15 @@ textarea {
   display: flex;
   justify-content: space-around;
 }
-.mail,
-.phone,
-.location {
+.contact-email{
+
   width: 60px;
   height: 60px;
   border-radius: 50%;
   background-color: #5863f8;
   color: #ffffff;
   padding: 23.3px;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
 }
