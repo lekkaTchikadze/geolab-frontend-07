@@ -1,13 +1,31 @@
+
 @media (max-width: 1200px) {
   .container {
     width: 90%;
   }
-}
-@media (max-width: 1024px) {
-  .title-1,
-  .title-2 {
-    text-align: center;
+
+  .image-wrapper{
+    width: 90%;
+  
   }
+  .img-1, .img-2, .img-3{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+
+
+    .s-3-title, .s-3-text , .title-1, .title-2 {
+      text-align: center;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+  
   .title-2 {
     font-size: 30px;
   }
@@ -24,4 +42,18 @@
     max-width: none;
     margin-bottom: 15px;
   }
+  .card > h2, .card > a {
+    display: none;
+  }
+  .card{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width:885px) {
+   .container {
+     width: 80%;
+     margin: 0 auto;
+   }
 }
